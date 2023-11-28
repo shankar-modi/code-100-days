@@ -2,7 +2,7 @@ package com.sk.recursion;
 
 import java.util.ArrayList;
 
-public class SubSequenceWIthSumK {
+public class A_04_SubSequenceWIthSumK {
     public static void main(String[] args) {
 
         int[] arr = {3,1,2,2,1};

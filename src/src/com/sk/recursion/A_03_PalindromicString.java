@@ -1,6 +1,6 @@
 package com.sk.recursion;
 
-public class PalindromicString {
+public class A_03_PalindromicString {
     public static void main(String[] args) {
         System.out.println(isPalindrome("MADAM"));
         System.out.println(isPalindrome("MADDAM"));

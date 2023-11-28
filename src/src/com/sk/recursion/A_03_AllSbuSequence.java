@@ -3,7 +3,7 @@ package com.sk.recursion;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AllSbuSequence {
+public class A_03_AllSbuSequence {
     public static void main(String[] args) {
         int[] arr = {3,1,2};
         printSubSeq(arr, 0 , "");

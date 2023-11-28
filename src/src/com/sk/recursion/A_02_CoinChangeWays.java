@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class CoinChangeWays {
+public class A_02_CoinChangeWays {
     public static void main(String[] args) {
         int[] coins = {1,2,5};
         int target = 15;
