@@ -5,12 +5,15 @@ import java.util.*;
 public class A_08_AllPermutation {
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3};
+        int[] arr = {1,2,3,4};
         List<List<Integer>> allPerm = new ArrayList<>();
         Set<Integer> visited = new HashSet<>();
 
         getAllThePermutation(0, arr, visited, allPerm, new ArrayList<>());
-        System.out.println(allPerm);
+        System.out.println("TOTAL PERMUTATION : " + allPerm.size());
+        for (List<Integer> perm: allPerm) {
+            System.out.println(perm);
+        }
 
     }
 
