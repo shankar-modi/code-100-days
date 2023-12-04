@@ -6,7 +6,7 @@ public class A_08_PlaceNQueens {
 
     public static void main(String[] args) {
         int n = 4;
-        char[][] board = new char[4][4];
+        char[][] board = new char[n][n];
         for (char[] c: board) {
             Arrays.fill(c, '.');
         }
